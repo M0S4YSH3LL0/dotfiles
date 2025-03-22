@@ -216,7 +216,7 @@ gaps outer 15px
 default_border none
 default_floating_border normal
 for_window [class="^.*"] border pixel 2
-for_window [class=".*"] title_format "<b>%title</b>"
+for_window [class=".*"] title_format "%title"
 
 
 # default_border none
