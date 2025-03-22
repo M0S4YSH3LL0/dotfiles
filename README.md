@@ -1,5 +1,7 @@
 # Repository for my personal dotfiles
 
+![Screenshot](screenshot.png)
+
 This `README` will mainly focus on ricing up `i3`.
 Rest of the setup will be covered too.
 
