@@ -2,8 +2,7 @@
 
 ![Screenshot](screenshot.png)
 
-This `README` will mainly focus on ricing up `i3`.
-Rest of the setup will be covered too.
+Configuration files are found in `.config`, it might be hidden lol
 
 ## My setup
 
