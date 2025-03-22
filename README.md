@@ -44,3 +44,5 @@ sudo apt install -y zsh kitty neovim rofi nemo picom i3
 - Configuration files: `~/.config/nvim/`
 - Documentation (`lazyvim`): <https://www.lazyvim.org/>
 - Documentation (`nvim`): <https://neovim.io/doc/>
+
+*to be continued...*
