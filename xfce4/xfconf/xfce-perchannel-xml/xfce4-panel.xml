@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <value type="int" value="2"/>
+    <property name="dark-mode" type="bool" value="true"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=6;x=960;y=18"/>
+      <property name="length" type="double" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="icon-size" type="uint" value="0"/>
+      <property name="size" type="uint" value="35"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="10"/>
+        <value type="int" value="4"/>
+        <value type="int" value="23"/>
+        <value type="int" value="14"/>
+        <value type="int" value="19"/>
+        <value type="int" value="2"/>
+        <value type="int" value="3"/>
+        <value type="int" value="13"/>
+        <value type="int" value="24"/>
+        <value type="int" value="8"/>
+        <value type="int" value="1"/>
+        <value type="int" value="26"/>
+        <value type="int" value="11"/>
+        <value type="int" value="6"/>
+        <value type="int" value="12"/>
+        <value type="int" value="9"/>
+      </property>
+      <property name="enter-opacity" type="uint" value="100"/>
+      <property name="leave-opacity" type="uint" value="100"/>
+      <property name="mode" type="uint" value="0"/>
+      <property name="autohide-behavior" type="uint" value="0"/>
+      <property name="background-style" type="uint" value="1"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.13333333333333333"/>
+        <value type="double" value="0.14117647058823529"/>
+        <value type="double" value="0.21176470588235294"/>
+        <value type="double" value="0.59999999999999998"/>
+      </property>
+      <property name="length-adjust" type="bool" value="true"/>
+    </property>
+    <property name="panel-2" type="empty">
+      <property name="autohide-behavior" type="uint" value="2"/>
+      <property name="position" type="string" value="p=10;x=969;y=1045"/>
+      <property name="length" type="double" value="2.6041666666666665"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="size" type="uint" value="60"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="15"/>
+        <value type="int" value="16"/>
+        <value type="int" value="17"/>
+        <value type="int" value="18"/>
+        <value type="int" value="20"/>
+        <value type="int" value="21"/>
+        <value type="int" value="22"/>
+      </property>
+      <property name="background-style" type="uint" value="0"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.23921568627450981"/>
+        <value type="double" value="0.2196078431372549"/>
+        <value type="double" value="0.27450980392156865"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="leave-opacity" type="uint" value="100"/>
+      <property name="enter-opacity" type="uint" value="100"/>
+      <property name="icon-size" type="uint" value="0"/>
+      <property name="mode" type="uint" value="0"/>
+      <property name="nrows" type="uint" value="1"/>
+      <property name="length-adjust" type="bool" value="true"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-2" type="string" value="tasklist">
+      <property name="grouping" type="bool" value="true"/>
+      <property name="show-labels" type="bool" value="true"/>
+      <property name="flat-buttons" type="bool" value="true"/>
+      <property name="show-handle" type="bool" value="false"/>
+      <property name="middle-click" type="uint" value="0"/>
+      <property name="include-all-workspaces" type="bool" value="false"/>
+      <property name="show-tooltips" type="bool" value="true"/>
+    </property>
+    <property name="plugin-3" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-8" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="show-notifications" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="brave.instance10534;brave.instance11033;brave.instance11260;brave.instance11500;brave.instance12104;brave.instance13028;brave.instance13311;brave.instance15328;brave.instance15362;brave.instance17745;brave.instance1927;brave.instance20779;brave.instance21179;brave.instance2189;brave.instance21975;brave.instance2212;brave.instance22356;brave.instance2243;brave.instance22582;brave.instance23082;brave.instance23867;brave.instance2392;brave.instance24294;brave.instance24461;brave.instance2456;brave.instance2458;brave.instance2478;brave.instance2506;brave.instance25336;brave.instance2538;brave.instance2545;brave.instance2549;brave.instance2552;brave.instance2553;brave.instance2554;brave.instance2556;brave.instance2557;brave.instance2563;brave.instance2567;brave.instance2568;brave.instance25687;brave.instance2571;brave.instance2572;brave.instance2573;brave.instance2581;brave.instance2583;brave.instance2587;brave.instance2588;brave.instance2601;brave.instance2604;brave.instance2611;brave.instance2622;brave.instance2626;brave.instance2628;brave.instance2630;brave.instance2632;brave.instance2648;brave.instance2652;brave.instance2660;brave.instance2662;brave.instance2664;brave.instance2667;brave.instance2669;brave.instance2672;brave.instance2676;brave.instance2678;brave.instance2682;brave.instance2683;brave.instance2684;brave.instance2685;brave.instance2686;brave.instance2687;brave.instance2689;brave.instance2690;brave.instance2691;brave.instance2692;brave.instance2693;brave.instance2696;brave.instance2697;brave.instance2698;brave.instance2699;brave.instance2700;brave.instance2701;brave.instance2702;brave.instance2703;brave.instance2706;brave.instance2707;brave.instance2708;brave.instance2709;brave.instance2711;brave.instance2712;brave.instance2713;brave.instance2714;brave.instance2716;brave.instance2719;brave.instance2720;brave.instance2722;brave.instance2723;brave.instance2724;brave.instance2726;brave.instance2727;brave.instance2728;brave.instance2730;brave.instance2731;brave.instance2732;brave.instance2734;brave.instance2735;brave.instance2736;brave.instance2737;brave.instance2739;brave.instance2741;brave.instance2742;brave.instance2743;brave.instance2744;brave.instance2745;brave.instance2746;brave.instance2747;brave.instance2748;brave.instance2749;brave.instance2750;brave.instance2755;brave.instance2756;brave.instance2757;brave.instance2758;brave.instance2761;brave.instance2762;brave.instance2763;brave.instance2764;brave.instance2767;brave.instance2771;brave.instance2772;brave.instance2773;brave.instance2779;brave.instance2782;brave.instance2783;brave.instance2787;brave.instance2788;brave.instance2789;brave.instance2792;brave.instance2796;brave.instance2810;brave.instance2814;brave.instance2818;brave.instance2835;brave.instance2836;brave.instance2840;brave.instance2847;brave.instance2848;brave.instance2850;brave.instance2851;brave.instance2854;brave.instance2855;brave.instance2873;brave.instance2881;brave.instance2885;brave.instance29407;brave.instance29462;brave.instance2959;brave.instance2970;brave.instance2983;brave.instance29977;brave.instance3012;brave.instance30264;brave.instance306776;brave.instance3075;brave.instance3079;brave.instance3082;brave.instance3085;brave.instance3090;brave.instance3099;brave.instance3156;brave.instance3170;brave.instance3176;brave.instance3191;brave.instance3192;brave.instance3196;brave.instance3207;brave.instance3215;brave.instance3245;brave.instance3264;brave.instance3349;brave.instance3391;brave.instance3398;brave.instance3436;brave.instance35483;brave.instance3559;brave.instance3562;brave.instance36591;brave.instance3690;brave.instance3759;brave.instance3783;brave.instance3811;brave.instance3835;brave.instance3855;brave.instance39412;brave.instance3984;brave.instance4009;brave.instance4071;brave.instance4120;brave.instance41318;brave.instance41808;brave.instance43673;brave.instance4410;brave.instance4637;brave.instance4838;brave.instance4846;brave.instance48825;brave.instance49623;brave.instance5011;brave.instance52854;brave.instance5348;brave.instance5550;brave.instance56101;brave.instance5680;brave.instance5687;brave.instance5959;brave.instance60785;brave.instance6128;brave.instance6150;brave.instance6216;brave.instance6505;brave.instance6692;brave.instance68006;brave.instance70440;brave.instance71246;brave.instance7234;brave.instance7547;brave.instance7582;brave.instance78240;brave.instance8103;brave.instance8384;brave.instance86110;brave.instance86308;brave.instance8981;brave.instance9028;brave.instance92651;brave.instance95192;brave.instance9836;brave.instance9883;chromium.instance17133;chromium.instance20940;chromium.instance23184;chromium.instance4154;chromium.instance57737;chromium.instance5869;chromium.instance6142;chromium.instance6558;chromium.instance9064;spotify;vlc"/>
+      <property name="enable-wnck" type="bool" value="false"/>
+      <property name="enable-multimedia-keys" type="bool" value="true"/>
+      <property name="enable-mpris" type="bool" value="true"/>
+      <property name="blacklisted-players" type="string" value="vlc"/>
+    </property>
+    <property name="plugin-12" type="string" value="clock">
+      <property name="mode" type="uint" value="2"/>
+      <property name="digital-layout" type="uint" value="1"/>
+      <property name="digital-date-font" type="string" value="Sans 10"/>
+      <property name="digital-time-font" type="string" value="Sans Bold 14"/>
+      <property name="timezone" type="string" value="CET"/>
+      <property name="digital-date-format" type="string" value="%d/%m/%Y"/>
+    </property>
+    <property name="plugin-15" type="string" value="showdesktop"/>
+    <property name="plugin-16" type="string" value="separator"/>
+    <property name="plugin-17" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17265779921.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-18" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17265779922.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-20" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17265779934.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-21" type="string" value="separator"/>
+    <property name="plugin-22" type="string" value="directorymenu">
+      <property name="base-directory" type="string" value="/home/m0"/>
+    </property>
+    <property name="plugin-23" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-26" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-9" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-13" type="string" value="netload"/>
+    <property name="plugin-24" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-10" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+      <property name="expand" type="bool" value="false"/>
+    </property>
+    <property name="plugin-14" type="string" value="separator">
+      <property name="style" type="uint" value="2"/>
+    </property>
+    <property name="plugin-19" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-4" type="string" value="pager">
+      <property name="rows" type="uint" value="1"/>
+      <property name="miniature-view" type="bool" value="false"/>
+      <property name="numbering" type="bool" value="false"/>
+      <property name="wrap-workspaces" type="bool" value="false"/>
+    </property>
+    <property name="plugin-1" type="string" value="systray">
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “epsteindidnotkillhimself” active: epsteindidnotkillhimself (36%) vpn connection active"/>
+        <value type="string" value="clipman"/>
+        <value type="string" value="wi-fi network connection “epsteindidnotkillhimself” active: epsteindidnotkillhimself (100%) vpn connection active"/>
+        <value type="string" value="wi-fi network connection “epsteindidnotkillhimself” active: epsteindidnotkillhimself (36%) vpn connection active"/>
+        <value type="string" value="wi-fi network connection “epsteindidnotkillhimself” active: epsteindidnotkillhimself (36%) vpn connection active"/>
+        <value type="string" value="wi-fi network connection “epsteindidnotkillhimself” active: epsteindidnotkillhimself (71%) vpn connection active"/>
+        <value type="string" value="wi-fi network connection “epsteindidnotkillhimself” active: epsteindidnotkillhimself (36%) vpn connection active"/>
+        <value type="string" value="wi-fi network connection “epsteindidnotkillhimself” active: epsteindidnotkillhimself (40%) vpn connection active"/>
+        <value type="string" value="wi-fi network connection “epsteindidnotkillhimself” active: epsteindidnotkillhimself (32%) vpn connection active"/>
+        <value type="string" value="wi-fi network connection “epsteindidnotkillhimself” active: epsteindidnotkillhimself (36%) vpn connection active"/>
+        <value type="string" value="wi-fi network connection “epsteindidnotkillhimself” active: epsteindidnotkillhimself (30%) vpn connection active"/>
+        <value type="string" value="wi-fi network connection “epsteindidnotkillhimself” active: epsteindidnotkillhimself (32%) vpn connection active"/>
+        <value type="string" value="wi-fi network connection “epsteindidnotkillhimself” active: epsteindidnotkillhimself (30%) vpn connection active"/>
+        <value type="string" value="wi-fi network connection “epsteindidnotkillhimself” active: epsteindidnotkillhimself (30%) vpn connection active"/>
+        <value type="string" value="wi-fi network connection “epsteindidnotkillhimself” active: epsteindidnotkillhimself (36%) vpn connection active"/>
+        <value type="string" value="wi-fi network connection “epsteindidnotkillhimself” active: epsteindidnotkillhimself (34%) vpn connection active"/>
+        <value type="string" value="wi-fi network connection “epsteindidnotkillhimself” active: epsteindidnotkillhimself (36%) vpn connection active"/>
+        <value type="string" value="wi-fi network connection “epsteindidnotkillhimself” active: epsteindidnotkillhimself (70%) vpn connection active"/>
+        <value type="string" value="wi-fi network connection “epsteindidnotkillhimself” active: epsteindidnotkillhimself (66%) vpn connection active"/>
+        <value type="string" value="wi-fi network connection “epsteindidnotkillhimself” active: epsteindidnotkillhimself (63%) vpn connection active"/>
+        <value type="string" value="wi-fi network connection “epsteindidnotkillhimself” active: epsteindidnotkillhimself (40%) vpn connection active"/>
+        <value type="string" value="anydesk"/>
+        <value type="string" value="wi-fi network connection “epsteindidnotkillhimself” active: epsteindidnotkillhimself (36%) vpn connection active"/>
+        <value type="string" value="wi-fi network connection “epsteindidnotkillhimself” active: epsteindidnotkillhimself (40%) vpn connection active"/>
+        <value type="string" value="wi-fi network connection “epsteindidnotkillhimself” active: epsteindidnotkillhimself (71%) vpn connection active"/>
+        <value type="string" value="wi-fi network connection “epsteindidnotkillhimself” active: epsteindidnotkillhimself (30%) vpn connection active"/>
+        <value type="string" value="wi-fi network connection “epsteindidnotkillhimself” active: epsteindidnotkillhimself (30%) vpn connection active"/>
+        <value type="string" value="wi-fi network connection “epsteindidnotkillhimself” active: epsteindidnotkillhimself (32%) vpn connection active"/>
+        <value type="string" value="javaembeddedframe"/>
+        <value type="string" value="wi-fi network connection “epsteindidnotkillhimself” active: epsteindidnotkillhimself (36%) vpn connection active"/>
+        <value type="string" value="mullvad-gui"/>
+        <value type="string" value="nemo"/>
+        <value type="string" value="lutris"/>
+        <value type="string" value="ibus-ui-gtk3"/>
+        <value type="string" value="wi-fi network connection “epsteindidnotkillhimself” active: epsteindidnotkillhimself (7%)"/>
+        <value type="string" value="wi-fi network connection “epsteindidnotkillhimself” active: epsteindidnotkillhimself (66%)"/>
+        <value type="string" value="pidgin"/>
+        <value type="string" value="deluge"/>
+        <value type="string" value="wi-fi network connection “epsteindidnotkillhimself” active: epsteindidnotkillhimself (38%)"/>
+        <value type="string" value="wi-fi network connection “epsteindidnotkillhimself” active: epsteindidnotkillhimself (42%)"/>
+        <value type="string" value="wi-fi network connection “epsteindidnotkillhimself” active: epsteindidnotkillhimself (27%)"/>
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="wi-fi network connection “epsteindidnotkillhimself” active: epsteindidnotkillhimself (34%)"/>
+        <value type="string" value="wi-fi network connection “epsteindidnotkillhimself” active: epsteindidnotkillhimself (32%)"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="wi-fi network connection “epsteindidnotkillhimself” active: epsteindidnotkillhimself (61%)"/>
+        <value type="string" value="wi-fi network connection “epsteindidnotkillhimself” active: epsteindidnotkillhimself (63%)"/>
+        <value type="string" value="wi-fi network connection “epsteindidnotkillhimself” active: epsteindidnotkillhimself (69%)"/>
+        <value type="string" value="wi-fi network connection “epsteindidnotkillhimself” active: epsteindidnotkillhimself (36%)"/>
+        <value type="string" value="wi-fi network connection “epsteindidnotkillhimself” active: epsteindidnotkillhimself (30%)"/>
+        <value type="string" value="ibus panel"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value=""/>
+        <value type="string" value="KeePassXC"/>
+        <value type="string" value="Wasabi Wallet"/>
+        <value type="string" value="systray_34443"/>
+        <value type="string" value="toolbox"/>
+        <value type="string" value="chrome_status_icon_1"/>
+        <value type="string" value="FeatherWallet"/>
+        <value type="string" value="electrum"/>
+        <value type="string" value="vlc"/>
+        <value type="string" value="steam"/>
+        <value type="string" value="ulauncher"/>
+        <value type="string" value="Proton Mail Bridge"/>
+      </property>
+      <property name="hidden-items" type="array">
+      </property>
+      <property name="menu-is-primary" type="bool" value="false"/>
+      <property name="symbolic-icons" type="bool" value="false"/>
+      <property name="single-row" type="bool" value="false"/>
+      <property name="square-icons" type="bool" value="true"/>
+      <property name="icon-size" type="int" value="0"/>
+    </property>
+    <property name="plugin-6" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-11" type="string" value="weather">
+      <property name="location" type="empty">
+        <property name="name" type="string" value="München, Bayern"/>
+        <property name="latitude" type="string" value="48.137108"/>
+        <property name="longitude" type="string" value="11.575382"/>
+      </property>
+      <property name="msl" type="int" value="526"/>
+      <property name="timezone" type="string" value="Europe/Berlin"/>
+      <property name="offset" type="string" value="+01:00"/>
+      <property name="cache-max-age" type="int" value="172800"/>
+      <property name="power-saving" type="bool" value="true"/>
+      <property name="units" type="empty">
+        <property name="temperature" type="int" value="0"/>
+        <property name="pressure" type="int" value="0"/>
+        <property name="windspeed" type="int" value="0"/>
+        <property name="precipitation" type="int" value="0"/>
+        <property name="altitude" type="int" value="0"/>
+        <property name="apparent-temperature" type="int" value="0"/>
+      </property>
+      <property name="round" type="bool" value="true"/>
+      <property name="single-row" type="bool" value="true"/>
+      <property name="tooltip-style" type="int" value="0"/>
+      <property name="forecast" type="empty">
+        <property name="layout" type="int" value="1"/>
+        <property name="days" type="int" value="5"/>
+      </property>
+      <property name="theme-dir" type="string" value="/usr/share/xfce4/weather/icons/simplistic"/>
+      <property name="scrollbox" type="empty">
+        <property name="show" type="bool" value="true"/>
+        <property name="animate" type="bool" value="true"/>
+        <property name="lines" type="int" value="1"/>
+        <property name="color" type="string" value="rgba(0,0,0,0)"/>
+        <property name="use-color" type="bool" value="false"/>
+      </property>
+      <property name="labels" type="empty">
+        <property name="label0" type="int" value="3"/>
+      </property>
+    </property>
+  </property>
+</channel>

@@ -1,0 +1,14 @@
+Use_Label=false
+Show_Values=true
+Show_Bars=true
+Colorize_Values=true
+Color_In=rgb(255,121,198)
+Color_Out=rgb(189,147,249)
+Text=WiFi
+Network_Device=wlx4086cbd22b92
+Max_In=4096
+Max_Out=4096
+Auto_Max=true
+Update_Interval=1000
+Values_As_Bits=true
+

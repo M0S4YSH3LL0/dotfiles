@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="parole" version="1.0">
+  <property name="subtitles" type="empty">
+    <property name="font" type="string" value="Sans Bold 20"/>
+  </property>
+  <property name="folders" type="empty">
+    <property name="last-used-media" type="string" value="/media/m0/h0med4ta/Movies/Sound.of.Freedom.2023.German.Forced.Subs.AC3.720p.BDRiP.x265-P73"/>
+  </property>
+  <property name="window" type="empty">
+    <property name="maximized" type="bool" value="false"/>
+    <property name="width" type="int" value="1008"/>
+    <property name="height" type="int" value="595"/>
+  </property>
+  <property name="audio" type="empty">
+    <property name="volume" type="int" value="100"/>
+  </property>
+  <property name="video" type="empty">
+    <property name="aspect-ratio" type="string" value="PAROLE_ASPECT_RATIO_AUTO"/>
+  </property>
+</channel>
